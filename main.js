@@ -3,7 +3,4 @@ function time(){
   alert("Today's date is " + d);
 }
 time();
-int x=0;
-while (x<1){
-  document.write("Hello");
-}
+document.getElementById("demo").innerHTML = "Date : " + Date();
